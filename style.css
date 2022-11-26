@@ -42,10 +42,13 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+button{
+    border: none;
+}
 
 /* start */
 * {
-    background-color: transparent;
+   background-color: transparent;
 }
 .TopBanner{
     border: 1px solid black;
@@ -78,3 +81,97 @@ table {
     background-size: 42px 42px;
     background-image: url(https://res.kurly.com/pc/ico/1908/ico_close_fff_84x84.png);
 }
+
+.Header{
+    position: relative;
+    width: 1050px;
+    height: 100px;
+    margin: 0 auto;
+}
+.Header1{
+    height: 35px;
+    right: 0;
+    top: 0;
+    position: absolute;
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;
+    border: 0.1px solid salmon; 
+    font-size: 12px;
+    text-decoration: none;
+    align-items: center;  
+}
+.Header1 > a {
+    display: block;
+    text-decoration: none;
+    white-space: nowrap;  /* 줄바뀜 방지 */
+}
+.HeaderJoin {
+    color: rgb(95, 0, 128);
+}
+.HeaderLine{
+    display: block;
+    width: 1px;
+    height: 13px;
+    margin: 0px 12px;
+    background-color: rgb(217, 217, 217);
+}
+.HeaderCustomerCenter{
+    display: block;
+    position: relative;
+    white-space: nowrap;  /* 줄바뀜 방지 */
+}
+.HeaderCustomerCenter > span{
+    width: 8px;
+    height: 5px;
+    background-image: url(https://res.kurly.com/pc/ico/1908/ico_down_16x10.png);
+    background-size: cover;
+    background-position: center center;
+    display: inline-block;
+    margin-left: 5px;
+    margin-bottom: 1px;
+}
+
+.Header2{
+    width: 1050px;
+    height: 63px;
+    padding-top: 36px;
+    display: flex;
+    flex-direction: row;
+}
+.Header2Inner1{
+    display: flex;
+    border: 3px solid red;
+    height: 63px;
+    align-items: center;
+}
+.Header2Inner1 > img{
+    flex: 0 0 82px;
+}
+
+.Header2Inner1Button1{
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 20px;
+    color: rgb(95, 0, 128);
+}
+.Header2Inner1Button2{
+    font-size: 18px;
+    margin-left: 22px;
+    color: rgb(181, 181, 181);
+    /* position: relative; */
+}
+
+.Header2Inner2{
+    width: 1050px;
+    margin: 0 auto;
+    border: 1px solid purple;
+}
+
+
+.Nav{
+    width: 1120.8px;
+    height: 56px;
+    margin: 0 auto;
+}
+
