@@ -1,0 +1,17 @@
+.login{
+    min-width: 1050px;
+    margin-top: 90px;
+    margin-bottom: 60px;
+    background-color: rgb(255, 255, 255);
+}
+.loginText{
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 20px;
+    text-align: center;
+}
+.loginFormWrapper{
+    width: 340px;
+    margin: 0px auto;
+    letter-spacing: -0.6px;
+}

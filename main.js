@@ -1,3 +1,4 @@
+// 상단 nav 고정
 function navgo() {
     const header = document.querySelector(".HeaderWrapper"); // 헤더분획득
     const headerheight = header.clientHeight; //헤더높이
@@ -15,4 +16,29 @@ function navgo() {
 
 navgo();
 
+// swiper
+const swiper = new Swiper('.swiper', {
+    // Optional parameters
+    direction: 'horizontal',
+    slidePerView: 1,
+    loop: true,
+
+    autoplay: { 
+        delay: 2500,
+        disableOnInteraction: false,
+    },
+  
+    // If we need pagination
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true,
+    },
+  
+    // Navigation arrows
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+  
+});
 

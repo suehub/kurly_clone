@@ -349,7 +349,7 @@ button{
 }
 
 /* 스와이퍼 */
-.swiper{
+.Swiper{
     margin-left: auto;
     margin-right: auto;
     position: relative;
@@ -817,10 +817,9 @@ button{
 
 /* side nav */
 .sideNav{
-    position: absolute;
+    position: fixed;
     width: 80px;
     right: 20px;
-    top: 70px;
     font-size: 12px;
     line-height: 16px;
     color: rgb(51, 51, 51);

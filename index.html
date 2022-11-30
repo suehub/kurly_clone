@@ -11,6 +11,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&family=Noto+Sans:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link  rel="stylesheet"  href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+/>
 </head>
 <body>
     <div>
@@ -143,19 +145,40 @@
                 </nav>
 
                 <!-- 메인 컨텐츠 -->
-                <div>
+                <div id="content">
                     <!-- 메인 배너 -->
                     <div class="bannerDiv"></div>
                     <div>
                         <div class="mainBanner">
                             <div class="banner">
                                 <div class="swiper">
-                                    <div class="swiperWrapper">
-                                        <div class="swiperSlide ">
+                                    <div class="swiper-wrapper swiperWrapper">
+                                        <div class="swiper-slide swiperSlide" data-swiper-slide-index="14">
                                             <a href="https://www.kurly.com/shop/event/kurlyEvent.php?htmid=event/card_benefit/card_benefit">
                                                 <img class="mainBannerImg" src="https://product-image.kurly.com/cdn-cgi/image/format=auto/banner/main/pc/img/f69e8e21-2119-429f-8721-72ecf4003120.jpg" alt="main-banner-703">
                                             </a>
                                         </div>
+                                        <div class="swiper-slide swiperSlide" data-swiper-slide-index="0">
+                                            <a href="https://www.kurly.com/shop/event/kurlyEvent.php?htmid=event/2022/1117/kurlystmas/kurlystma">
+                                                <img class="mainBannerImg" src="https://product-image.kurly.com/cdn-cgi/image/format=auto/banner/main/pc/img/dbc42cdb-63ed-4655-899b-c4c5fe5fb5a8.jpg">
+                                            </a>
+                                        </div>
+                                        <div class="swiper-slide swiperSlide" data-swiper-slide-index="1">
+                                            <a href="https://www.kurly.com/main/beauty">
+                                                <img class="mainBannerImg" src="https://product-image.kurly.com/cdn-cgi/image/format=auto/banner/main/pc/img/50eecac0-cf8a-4018-b97b-f6ef97907181.jpg" alt="main-banner-703">
+                                            </a>
+                                        </div>
+                                        <div class="swiper-slide swiperSlide" data-swiper-slide-index="2">
+                                            <a href="https://www.kurly.com/categories/796">
+                                                <img class="mainBannerImg" src="https://product-image.kurly.com/cdn-cgi/image/format=auto/banner/main/pc/img/80838f4b-0b88-4f08-9f76-64710ff9cfa5.jpg">
+                                            </a>
+                                        </div>
+                                        <div class="swiper-slide swiperSlide" data-swiper-slide-index="3">
+                                            <a href="https://www.kurly.com/categories/303">
+                                                <img class="mainBannerImg" src="https://product-image.kurly.com/cdn-cgi/image/format=auto/banner/main/pc/img/4f52800e-df9a-4919-ba85-8e9742e1aea1.jpg">
+                                            </a>
+                                        </div>
+                                        
                                     </div>
                                 </div>
                                 <button class="bannerLeftButton" type="button" direction="left"></button>
@@ -176,7 +199,7 @@
                                 </div>
                             </div>
                             <div class="recommandLists">
-                                <div class="swiper">
+                                <div class="Swiper">
                                     <div class="swiperWrapper">
                                         <div class="swiperSlide" style="margin-right: 18px;">
                                             <div class="swiperList">
