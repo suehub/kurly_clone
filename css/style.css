@@ -250,10 +250,15 @@ button{
     min-width: 1050px;
     letter-spacing: -0.3px;
     background-color: rgb(255, 255, 255);
-    position: relative;
-    box-shadow: rgb(0 0 0 / 7%) 0px 3px 4px 0px;
     width: 100%;
-    z-index: 10;
+    margin-top: 50px;
+    box-shadow: rgb(0 0 0 / 7%) 0px 3px 4px 0px;
+    z-index: 20;
+}
+.fix{
+    position: fixed;
+    top: -51px;
+    animation: down 0.5s ease;
 }
 .nav{
     width: 1050px;
@@ -815,7 +820,7 @@ button{
     position: absolute;
     width: 80px;
     right: 20px;
-    top: 225px;
+    top: 70px;
     font-size: 12px;
     line-height: 16px;
     color: rgb(51, 51, 51);
@@ -1082,3 +1087,14 @@ button{
     padding-top: 7px;
     font-style: normal;
 }
+
+
+@keyframes down {
+    0%{
+      transform: translateY(-50px)
+    }
+    100%{
+      transform: translateY(0px)
+    }
+}
+
