@@ -251,13 +251,12 @@ button{
     letter-spacing: -0.3px;
     background-color: rgb(255, 255, 255);
     width: 100%;
-    margin-top: 50px;
     box-shadow: rgb(0 0 0 / 7%) 0px 3px 4px 0px;
     z-index: 20;
 }
 .fix{
     position: fixed;
-    top: -51px;
+    top: 0px;
     animation: down 0.5s ease;
 }
 .nav{
